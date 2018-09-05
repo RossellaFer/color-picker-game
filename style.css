@@ -1,8 +1,14 @@
+html {
+	height: 100%;
+}
+
 body {
+	min-height: 100%;
 	margin: 0;
 	background-color: #808080;
 	font-family: "Montserrat", "Avenir";
 	height: 100%;
+
 }
 
 h1 {
@@ -93,4 +99,26 @@ button:hover {
 	transition: all 0.3s;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
+}
+
+@media screen and (max-width: 600px) {
+	#pickedColor {
+		font-size: 150%;
+	}
+
+	.mastermode {
+		margin: -2% 1.66%;
+		width: 19%;
+		padding-bottom: 20%;
+	}
+
+	button {
+		font-size: 10px;
+	}
+
+	#result {
+	display: inline-block;
+	width: 10%;
+	font-size: 8.5px;
+	}
 }
